@@ -11,5 +11,6 @@ public interface TurnoRepository extends MongoRepository<Turno, String> {
     public List<Turno> findAll();
     public Turno findByNumeroTurno(Integer numeroTurno);
     public Turno save(Turno turno);
+    
 
 }

@@ -6,5 +6,5 @@ import ec.edu.espe.examenbetancourt.model.Ejecutivo;
 
 public interface EjecutivoRepository extends MongoRepository<Ejecutivo, String> {
     
-    public Ejecutivo findByCodigoUsuario(Integer codigoUsuario);
+    public Ejecutivo findByCodigoUsuario(Integer codUsuarioEjecutivo);
 }
